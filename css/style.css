@@ -4,11 +4,7 @@
     margin: 0;
     padding: 0;
 }
-
-header{
-    background-color:rgb(182, 178, 178);
-    position: sticky;
-    top: 0;
+/*
 }
 header nav{
     display: inline;
@@ -22,6 +18,12 @@ header nav ul li{
     list-style: none;
     margin: 0px 3px;
 }
+*/
+header{
+    background-color:rgb(182, 178, 178);
+    position: sticky;
+    top: 0;
+}
 header nav ul li a{
     text-decoration: none;
     color:rgb(0, 94, 0);
@@ -34,10 +36,12 @@ header h3{
     font-family: 'Rokkitt', serif;
     color: black;
 }
+
 header div{
     display: inline;
     text-align: center;
 }
+
 .SolapaP{
     height: 100%;
     display: flex;
