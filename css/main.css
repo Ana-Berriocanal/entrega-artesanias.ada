@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:wght@500&family=Raleway:ital,wght@1,500&family=Rokkitt:wght@200&family=Satisfy&family=Work+Sans&display=swap");
+* {
+    margin: 0;
+    padding: 0; }
+
+header {
+    background-color: #b6b2b2;
+    position: sticky;
+    top: 0; }
+header div {
+    display: inline;
+    text-align: center; }
+    header div h2 {
+    font-family: 'Playfair Display', serif;
+    color: black; }
+    header div h3 {
+    font-family: 'Rokkitt', serif;
+    color: black; }
+header nav div ul li a {
+    text-decoration: none;
+    color: #005e00; }

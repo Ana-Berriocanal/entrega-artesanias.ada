@@ -4,21 +4,6 @@
     margin: 0;
     padding: 0;
 }
-/*
-}
-header nav{
-    display: inline;
-}
-header nav ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-header nav ul li{
-    list-style: none;
-    margin: 0px 3px;
-}
-*/
 header{
     background-color:rgb(182, 178, 178);
     position: sticky;
@@ -248,19 +233,19 @@ footer div img{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
-    .seccionHogar{
+    .productos .seccionHogar{
         grid-column: 1/3;
         grid-row: 2/3;
     }
-    .seccionBebe{
+    .productos .seccionBebe{
         grid-column: 1/3;
         grid-row: 3/3;
     }
-    .amigurumis{
+    .productos .amigurumis{
         grid-column: 1/3;
         grid-row: 4/5
     }
-    .atrapasueños{
+    .productos .atrapasueños{
         grid-column: 1/3;
         grid-row: 1/2;
     }
@@ -273,7 +258,7 @@ footer div img{
         height: 450px;
         margin: 20px;
     }
-    .fotoS img{
+    .fotoS div img{
         height: 380px;
     }
     }
@@ -300,7 +285,7 @@ footer div img{
         height: 290px;
         margin: 20px;
     }
-    .fotoS img{
+    .fotoS div img{
         height: 190px;
     }
 }
